@@ -1,0 +1,65 @@
+#box {
+     display: flex;
+     flex-direction: column-reverse;
+     /* border: 2px solid; */
+     /* z-index: -2; */
+}
+
+.boxrow {
+     display: flex;
+}
+
+#boxRow2, #boxRow4, #boxRow6, #boxRow8, #boxRow10 {
+     flex-direction: row-reverse;
+}
+
+#dice {
+     cursor: pointer;
+
+}
+
+.boxitem {
+     height: 8vh;
+     width: 8vh;
+     /* border: 2px solid; */
+     padding: 5px;
+
+}
+
+.board {
+     position: fixed;
+     width: 40%;
+     top: 129px;
+     z-index: -1;
+     /* display: none; */
+}
+
+#sp {
+     position: fixed;
+     top: 90px;
+     left: 415px;
+     scale: 0.9;
+     rotate: -5deg;
+}
+
+#sy1 {
+     position: absolute;
+     top: 275px;
+     left: 510px;
+     scale: 0.25;
+     rotate: -25deg;
+}
+
+.pred {
+     z-index: 2;
+}
+
+.pred {
+     position: relative;
+     cursor: pointer;
+     /* width: 177px;
+     height: 160px; */
+     left: 0;
+     transition: left 5s cubic-bezier(0, 0, 1, 1);
+}
+
